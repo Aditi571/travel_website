@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link href="membership.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+     <div class="image">
+        <h2>Create an account</h2>
+    <div class="membership">
+        
+        <form name="form" onsubmit="allert()">
+        <h3 class="account"></h3>
+        <div class="row"><p>Name </p><input type="text" placeholder="Name" required></div>
+        <div class="row"><p>Password  </p><input type="password" placeholder="Password" required></div>
+        <div class="row"><p>Email </p><input type="email" placeholder="Email" required></div>
+        <div class="row"><p>Phone no. </p><input type="number" placeholder="Phone no." name="phone" required></div>
+        <div class="row"><p>Birth Date </p><input type="date" required></div>
+        <div class="row"><p>Gender</p> 
+            <div class="row"><h4>Male</h4><input type="radio" name="gender" value="male" class="gender" required></div>
+            <div class="row"><h4>Female</h4><input type="radio" name="gender" value="female" class="gender" required></div>
+            <div class="row"><h4>Others</h4><input type="radio" name="gender" value="others" class="gender" required></div>
+        </div>
+        <button type="submit">Submit<i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+        <button type="reset">Reset</button>
+        </form>
+        </div>
+        </div>
+        <script>
+        function allert(){
+            alert("Your form has been submitted.You would soon receive an email for confirmation.");
+        }
+        </script>
+    </body>
+</html>

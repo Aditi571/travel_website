@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#homee{
+    padding: 10px 15px 10px 15px;
+    color:white;
+    font-size:30px;
+     font-family:  "Playfair Display";
+    text-align: center;
+    font-style: italic;
+    box-shadow: 2px 2px 5px black;
+    background-color: transparent;
+    position: absolute;
+    top:2vh;
+    left:90vw;
+    text-decoration: none;
+}
+.image{
+    width: 100vw;
+    height:40vh;
+    background-image: url(23.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.para{
+      background-color: floralwhite;
+     width: 100vw;
+    height: 40vh;
+}
+.para p{
+    background-color: floralwhite;
+    font-size: 20px;
+    font-family:  "Playfair Display";
+    text-align: center;
+    font-style: italic;
+    margin: 10px 30px 10px 30px;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:  "Playfair Display";
+    font-style: italic;
+    color:black;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.row div{
+    width: 25vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin: 10px 30px 10px 30px;
+    overflow: hidden;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    margin: 40px 20px 40px 20px;
+}
+.row img{
+    width: 25vw;
+    height:30vh;
+}
+.row p{
+    padding: 20px;
+    font-size:18px;
+}
+button{
+    background-color: lightskyblue;
+    color: white;
+    padding:10px 15px 10px 15px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-left:20px;
+    margin-bottom: 20px;
+}

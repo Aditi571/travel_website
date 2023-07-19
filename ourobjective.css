@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    position: absolute;
+    left:60vw;
+    top:1vh;
+    color:darkblue;
+    font-size: 40px;
+}
+.img-1{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    width: 40vw;
+    height:60vh;
+    background-color:dodgerblue;
+    position: absolute;
+    top:0vh;
+}
+.img-1 img{
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    left:3vw; 
+    top:5vh;
+    box-shadow: 3px 5px 5px black;
+}
+.para-1{
+    width: 35vw;
+    height: 30vh;
+    position: absolute;
+    left:50vw;
+    top: 14vh;
+    padding: 20px;
+}
+.para-1 h3{
+    color:grey;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.para-1 p{
+    font-size: 18px;
+}
+
+
+
+
+.img-2{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    width: 40vw;
+    height:60vh;
+    background-color:dodgerblue;
+    position: absolute;
+    top: 80vh;
+    left:55vw;
+}
+.img-2 img{
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    left:-3vw; 
+    top:5vh;
+    box-shadow: -3px 5px 5px black;
+}
+.para-2{
+    width: 35vw;
+    height: 30vh;
+    position: absolute;
+    left:5vw;
+    top: 87vh;
+    padding: 20px;
+}
+.para-2 h3{
+    color:grey;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.para-2 p{
+    font-size: 18px;
+}
+
+
+
+
+.img-3{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    width: 40vw;
+    height:60vh;
+    background-color:dodgerblue;
+    position: absolute;
+    top:150vh;
+}
+.img-3 img{
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    left:3vw; 
+    top:5vh;
+    box-shadow: 3px 5px 5px black;
+}
+.para-3{
+    width: 35vw;
+    height: 30vh;
+    position: absolute;
+    left:50vw;
+    top: 165vh;
+    padding: 20px;
+}
+.para-3 h3{
+    color:grey;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.para-3 p{
+    font-size: 18px;
+}
+
+/***********************************************************HOVER**********************************************/
+.para-1:hover,.para-2:hover,.para-3:hover {
+    box-shadow: 2px 2px 5px black;
+    transition: 0.5s;
+}

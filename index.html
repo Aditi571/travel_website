@@ -1,0 +1,125 @@
+<html>
+<head>
+    <link href="abcd.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+
+        <div id="images">
+            <h1><span>Delightful Travels</span></h1>
+            <div class="design">
+            <div class="line1"></div>
+            <div class="d"></div>
+            <div class="d"></div>
+            <div class="d"></div>
+            <div class="line1"></div>
+            </div>
+            <p>A New Sky , A New Life</p>
+            <i class="fa fa-angle-down" aria-hidden="true" id="down"></i>
+    <!----------------------------------------------Navebar------------------------------------------>
+         <div id="logo"></div>
+        <nav>
+        <ul id="main-ul">
+            <li class="main-li" id="main-li-1"><a href="#">Home</a></li>
+            <li class="main-li"  id="main-li-3"><a href="products.html" target="_blank">Travel Tours</a> </li>
+            <li class="main-li"  id="main-li-2"><a href="services.html" target="_blank" >Services</a></li>
+            <li class="main-li"  id="main-li-4"><a href="aboutus.html" target="_blank">About Us</a></li>
+            <li class="main-li"  id="main-li-5"><a href="ContactUs.html" target="_blank">Contact us</a></li>
+            </ul>
+        </nav>
+        <!-------------------------------------------Navebar------------------------------------------->
+         
+        </div>
+        
+       <div class="main-body">
+           <h1 id="heading">Best Places To Visit</h1>
+           
+        <div class="row1">
+        <div class="div-1"><h2>Amsterdam-Netherlands</h2><p>Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city’s 17th-century Golden Age. Its Museum District houses the Van Gogh Museum, works by Rembrandt and Vermeer at the Rijksmuseum, and modern art at the Stedelijk.</p><span></span><img src="15.jpeg" onclick="big1()" id="image1"></div>
+        <div class="div-2"><img src="16.jpg" onclick="big2()" id="image"><h2>Niagara Falls-Canada</h2><p>Niagara Falls, Ontario, is a Canadian city at the famous waterfalls of the same name, linked with the U.S. by the Rainbow Bridge.Its site on the Niagara River's western shore overlooks the Horseshoe Falls, the cascades' most expansive section. Elevators take visitors to a lower, wetter vantage point behind the falls. </p></div>
+        <div class="div-3"><h2>Paris-France</h2><p>Every day, the magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe.But what travelers really fall in love with are the city's quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi charm. Get lost wandering along Paris' cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours.</p><img src="18.jpg" onclick="big3()" id="image3"></div>
+           </div>
+           
+           
+           <div class="row2">
+        <div class="div-4"><h2>Glacier National Park-USA</h2><p>Snow-capped peaks and azure lakes are just two reasons why Glacier National Park is one of the most-visited parks in the United States. There are more than 700 miles of hiking trails in this Montana park, plus 13 designated areas for camping. In winter, travelers can enjoy snowshoeing and skiing, while  summer is when vacationers can go swimming and whitewater rafting, among other popular activities.</p><img src="19.jpg"></div>
+        <div class="div-5"><img src="20.jpg"><h2>Rome-Italy</h2><p>When you visit the Eternal City, prepare to cross a few must-see attractions – including the Colosseum, the Trevi Fountain and the Pantheon – off of your bucket list. Additional treasures, such as St. Peter's Basilica and the Sistine Chapel, can be found in nearby Vatican City.</p></div>
+        <div class="div-6"><h2>Barcelona-Spain</h2><p>This Spanish city is a feast for the eyes: Visitors can walk past medieval architecture in the Barri Gòtic, snap photos of the intricate Sagrada Família and marvel at Gaudí's whimsical creations in Park Güell. La Barceloneta Beach and the Parc de la Ciutadella are perfect places to pass the time on a sunny day before checking out the restaurants and bars along Las Ramblas, which buzzes at all hours of the night. </p><img src="21.png"></div>
+           </div>
+        </div>
+        
+        <script>
+            var a=0;
+             function big1(){
+                
+               if(a==0){
+               document.getElementById("image1").style.width="80vw";
+               document.getElementById("image1").style.height="80vh";
+               document.getElementById("image1").style.position="sticky";
+               document.getElementById("image1").style.top="5vh";
+               document.getElementById("image1").style.left="0px";
+                   a=1;
+               }
+               else{
+                   document.getElementById("image1").style.width="25vw";
+               document.getElementById("image1").style.height="30vh";
+               document.getElementById("image1").style.position="relative";
+               document.getElementById("image1").style.top="0px";
+               document.getElementById("image1").style.left="0px";
+                   a=0;
+               }
+           }
+            
+            
+            
+           function big2(){
+                
+               if(a==0){
+               document.getElementById("image").style.width="80vw";
+               document.getElementById("image").style.height="80vh";
+               document.getElementById("image").style.position="absolute";
+               document.getElementById("image").style.top="0px";
+               document.getElementById("image").style.left="0px";
+                   a=1;
+               }
+               else{
+                   document.getElementById("image").style.width="25vw";
+               document.getElementById("image").style.height="30vh";
+               document.getElementById("image").style.position="relative";
+               document.getElementById("image").style.top="0px";
+               document.getElementById("image").style.left="0px";
+                   a=0;
+               }
+           }
+            
+            
+            
+            function big3(){
+                
+               if(a==0){
+               document.getElementById("image3").style.width="80vw";
+               document.getElementById("image3").style.height="80vh";
+               document.getElementById("image3").style.position="absolute";
+               document.getElementById("image3").style.top="10vh";
+               document.getElementById("image3").style.left="0px";
+                   a=1;
+               }
+               else{
+                   document.getElementById("image3").style.width="25vw";
+               document.getElementById("image3").style.height="30vh";
+               document.getElementById("image3").style.position="relative";
+               document.getElementById("image3").style.top="0px";
+               document.getElementById("image3").style.left="0px";
+                   a=0;
+               }
+           }
+           
+            
+        </script>
+    </body>
+</html>

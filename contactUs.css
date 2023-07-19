@@ -1,0 +1,169 @@
+*{
+margin: 0;
+    padding: 0;
+  overflow: hidden;
+}
+.contact-us{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(27, 33, 43);
+}
+.text{
+    position: absolute;
+    top:2vh;
+    left: 65vw;
+}
+.text h1{
+    color:white;
+    font-family: "Playfair Display";
+    font-style: italic;
+    text-align: center;
+}
+.text p{
+    color: white;
+     font-family: "Playfair Display";
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+.design{
+    width: 20vw;
+    height: 2vh;
+    position: absolute;
+    top:6.5vh;
+    left:2vw;
+    display: flex;
+    flex-direction: row;
+}
+.line1{
+    width: 3vw;
+    height: 0.1vh;
+    background-color:white;
+    margin: 3px 2px 0px 2px;
+}
+.d{
+    width: 0.5vw;
+    height:1vh;
+    clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);
+    background-color:white;
+    margin:0px 2px 0px 2px;
+}
+#contact-form{
+    position: absolute;
+    left:50vw;
+    width: 50vw;
+    height:100vh;
+}
+#contact-form form{
+    height: 60vh;
+    width: 25vw;
+    position: absolute;
+    top:30vh;
+    left:10vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+#contact-form textarea{
+     width: 20vw;
+    margin:10px 0px 10px 10px;
+    border-radius: 0px;
+    height:20vh;
+    padding:10px 0px 0px 10px;
+}
+#contact-form input{
+    width: 20vw;
+    margin:10px 0px 10px 10px;
+    border-radius: 0px;
+    padding: 10px 15px 10px 15px;
+}
+#contact-form button{
+    width: 15vw;
+    margin:10px 0px 10px 10px;
+    border-radius: 0px;
+    font-size:20px;
+    padding: 5px;
+}
+iframe{
+    position: absolute;
+    top: 0vh;
+    width: 50vw;
+    height:100vh;
+}
+.div-1{
+    width: 9vw;
+    height: 1.5vh;
+    background-color: skyblue;
+    position: absolute;
+    top:27vh;
+    left:10vw;
+    border-radius: 10px;
+}
+.div-2{
+     width: 0.7vw;
+    height: 12vh;
+    background-color: skyblue;
+    position: absolute;
+    top:27vh;
+    left:10vw;
+    border-radius: 10px;
+}
+.div-3{
+     width: 9vw;
+    height: 1.5vh;
+    background-color: royalblue;
+    position: absolute;
+    top:87vh;
+    left:25.5vw;
+    border-radius: 10px;
+}
+.div-4{
+     width: 0.7vw;
+    height: 12vh;
+    background-color: royalblue;
+    position: absolute;
+    top:76.5vh;
+    left:34vw;
+    border-radius: 10px;
+}
+.phone{
+    color:white;
+    position: absolute;
+    top:18vh;
+    left:55vw;
+    display: flex;
+    flex-direction: row;
+}
+.phone i{
+    padding-right: 10px;
+}
+.phone #i{
+    font-size: 20px;
+    font-family: "Playfair Display";
+    padding: 0px 40px 0px 0px;
+}
+#i2{
+    font-size: 20px;
+    font-family: "Playfair Display";
+     padding: 0px 10px 0px 30px;
+}
+#homee{
+    padding: 10px 15px 10px 15px;
+    color:white;
+    font-size:30px;
+     font-family:  "Playfair Display";
+    text-align: center;
+    font-style: italic;
+    box-shadow: 2px 2px 5px black;
+    background-color: transparent;
+    position: absolute;
+    top:2vh;
+    left:90vw;
+    text-decoration: none;
+}
+
+
+/****************************************************************************************/
+ 

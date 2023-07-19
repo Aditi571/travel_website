@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.image{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(33.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    height: 40vh;width: 100vw;
+}
+.image h1{
+    color: white;
+    font-size:60px;
+     font-family:  "Playfair Display";
+    text-align: center;
+    font-style: italic;
+    padding-top:15vh;
+}
+.services p{
+     font-size:30px;
+     font-family:  "Playfair Display";
+    text-align: center;
+    font-style: italic;
+    padding:20px 100px 10px 100px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-size:25px;
+}
+.row p{
+    font-size:20px!important;
+}
+i{
+    font-size: 80px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.down{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 100vw;
+    height:10vh;
+}
+h2{
+    font-size:30px;
+     font-family:  "Playfair Display";
+    text-align: center;
+    font-style: italic;
+   padding-top: 10px;
+}
+.column:hover{
+    box-shadow: 3px 3px 5px black;
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+#homee{
+    padding: 10px 15px 10px 15px;
+    color:white;
+    font-size:30px;
+     font-family:  "Playfair Display";
+    text-align: center;
+    font-style: italic;
+    box-shadow: 2px 2px 5px black;
+    background-color: transparent;
+    position: absolute;
+    top:2vh;
+    left:90vw;
+    text-decoration: none;
+}
